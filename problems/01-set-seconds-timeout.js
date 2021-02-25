@@ -24,7 +24,7 @@ setSecondsTimeout(function () {
 ***********************************************************************/
 
 function setSecondsTimeout(cb, delay) {
-  setTimeout(cb, delay*1000)
+  setTimeout(() => cb(), delay*1000)
 }
 
 

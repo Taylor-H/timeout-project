@@ -28,6 +28,8 @@ function setSecondsTimeoutArgs(cb, delay, ...args) {
   },delay*1000)
 }
 
+// setTimeout(cb, delay*1000, ...args) *another way to solve this problems
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = setSecondsTimeoutArgs;
